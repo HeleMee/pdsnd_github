@@ -177,7 +177,7 @@ def user_stats(df):
     else:
         print('Gender information unavailable')
 
-    # Display earliest, most recent, and most common year of birth
+    # Display earliest, most recent, and most common year of birth from users
     if 'Birth Year' in df.columns:
         earliest_birth_year = int(df['Birth Year'].min())
         print('The oldest user was born in {}'.format(earliest_birth_year))
