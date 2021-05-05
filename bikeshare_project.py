@@ -54,7 +54,7 @@ def get_filters():
 
 def load_data(city, month, day_of_week):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city and filters by month and day of the week if applicable.
 
     Args:
         (str) city - name of the city to analyze
